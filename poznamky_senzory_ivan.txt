@@ -1,16 +1,10 @@
-Stanislav Ubik - telefon, fridek mistek, autor cisteho nebe
-- parsery na data z CHMU
-- appka na rizeni klimatizace
+Komenty k senzorum:
 
-workshop s ovladanim bytosti
+Za pouziti aktualne dostupnych senzoru meri pm2.5 pm10, O3, CO2, (nutno potvrdit ze tohle chceme merit? senzoru je vice.) 
+transformuji data na server pomoci iot modulu (libovolny modul, je nutne specifikovat predem), 
+napajeni 3 z nich solarnim panelem.
 
-
-Za pouziti aktualne dostupnych senzoru meri pm2.5 pm10, O3, CO2, (nutno
-		potvrdit ze tohle chceme merit? senzoru je vice.) transformuji data na
-server pomoci iot modulu (libovolny modul, je nutne specifikovat
-		predem), napajeni 3 z nich solarnim panelem.
-
-1)senzory:
+1)senzory naceneni:
 navrh: 200h  (500/hod)    celkem 100 000
 sestaveni 10 prototypu 60h (350/h)      celkem  21 000
 soucastky(sensory, pcb, osazeni desek, konektory..)   20 000
@@ -36,6 +30,6 @@ Vystup - prototypy ready k otestovani v siti, hotova data pro vyrobu.
 	reseni: kalibrace senzoru s pomoci profesionalnich senzoru v laboratori,
 	tezko rict kde, asi s pomoci chmu, nebo ustav merici techniky nebo
 	nejaka vysoka skola..? Odhadem sto tisic mesic spoluprace pri kalibraci.
-	Ale jak rikam, zalezi na tom jak moc budeme chtit se snazit dojit presne
+	Ale jak rikam, zalezi na tom jak moc budeme chtit se snazit vydojit presne
 	data z tech levnych senzoru.
 
